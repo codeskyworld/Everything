@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login Page">
+    <meta name="keywords" content="Basic login">
+    <meta name="author" content="Codeskyworld">
+    <title>Log In test</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <header>
+        <h1>Log In (test)</h1>
+    </header>
+
+    <form id="loginform">
+        <div class="container">
+            <h1>Login</h1>
+
+            <h3 id="message"></h3>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username...">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password...">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email...">
+
+            <button type="submit" name="submit" id="submit" onclick="onsubmit()">Log In</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
