@@ -1,0 +1,16 @@
+{
+    "people": [
+        {
+            "name":"Codeskyworld",
+            "age":35
+        },
+        {
+            "name":"codedarkworld",
+            "age":30
+        },
+        {
+            "name":"codelightworld",
+            "age":25
+        }
+    ]
+}
