@@ -1,0 +1,13 @@
+#boxes{
+    margin-top:20px;
+}
+
+.box{
+    float:left;
+    width:30%;
+    padding:10px;
+    text-align:center;
+    background-color: rgb(80, 89, 255);
+    margin:10px;
+}
+

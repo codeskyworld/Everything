@@ -1,0 +1,17 @@
+#showcase{
+    color:#ffffff;
+    background:blue;
+    min-height:250px;
+}
+
+#showcase h1{
+    font-size:55px;
+    margin-bottom:10px;
+    line-height:1.6em;
+    text-align:center;
+}
+
+#showcase p{
+    font-size:20px;
+    text-align:center;
+}
