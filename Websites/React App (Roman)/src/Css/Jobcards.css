@@ -1,16 +1,19 @@
-#boxes{
+#Jobs{
     margin-top:20px;
     display:inline;
+    background-color: rgb(138, 132, 255);
 }
 
-.box{
+.Job{
     float:left;
     width:30%;
     padding:20px;
     text-align:center;
-    background-color: rgb(80, 89, 255);
+    background-color: rgb(128, 135, 255);
     margin:10px;
     border-radius: 10px;
 }
 
-
+center{
+    text-align: center;
+}

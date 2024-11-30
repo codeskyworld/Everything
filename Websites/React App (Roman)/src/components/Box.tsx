@@ -4,15 +4,18 @@ import '../Css/Box.css'
 interface Props {
     heading:string,
     paragraph:string,
+    button:string,
 }
-const Box = ({heading, paragraph}:Props) => {
+
+const Box = ({heading, paragraph, button}:Props) => {
   return (
     <div>
       <div id="boxes">
-        <div className="box">
-          <h3>{heading}</h3>
-          <p>{paragraph}</p>
-        </div>
+          <div className="box">
+            <h3>{heading}</h3>
+            <p>{paragraph}</p>
+            <button type="button" className="btn btn-dark text-light">{button}</button>
+          </div>
       </div>
     </div>
   )
