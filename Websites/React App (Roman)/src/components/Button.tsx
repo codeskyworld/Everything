@@ -1,18 +1,15 @@
 import React from 'react'
-import { useState } from 'react'
+import '../Css/Button.css'
 
-interface Props{
-    children: string,
-    onClick: () => void,
-    color?: string
+interface Props {
+    text:string,
 }
-const button = ({ children, onClick, color='info'}: Props) => {
+const Button = ({text}:Props) => {
   return (
     <div>
-      <button className={'btn btn-' + color} onClick={onClick}>{children}</button>
+      <button type="button" className="button-viewing">{text}</button>
     </div>
   )
 }
 
-export default button
-
+export default Button

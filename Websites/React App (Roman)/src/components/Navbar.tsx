@@ -3,8 +3,13 @@ import '../Css/Navbar.css'
 
 interface Props{
   heading:string,
+  current:string
 }
-const Navbar = ({heading}:Props) => {
+const Navbar = ({heading, current}:Props) => {
+
+  const style = {
+    color: {current}
+  }
   return (
     <div>
       <header>
@@ -13,8 +18,8 @@ const Navbar = ({heading}:Props) => {
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Add Jobs</a></li>
                 </ul>
             </nav>
         </div>

@@ -1,0 +1,29 @@
+header {
+  background-color: #34495e;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 80px;
+  border-bottom: #1e1e1e 3px solid;
+}
+
+header li {
+  list-style: none;
+  display: inline;
+  float: left;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header li a {
+  text-decoration: none;
+  color: azure;
+}
+
+header h1 {
+  margin: 0;
+  float: left;
+}
