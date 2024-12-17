@@ -1,0 +1,25 @@
+footer a:hover {
+  font-weight: bolder;
+  color: #81250c;
+}
+
+footer a {
+  display: grid;
+  text-decoration: none;
+  color: lightsalmon;
+}
+
+footer {
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 200px;
+}
+
+.down-line {
+  display: grid;
+  color: lightsalmon;
+  font-weight: bolder;
+  font-size: medium;
+}

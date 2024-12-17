@@ -1,0 +1,24 @@
+.boxes {
+  margin-top: 20px;
+}
+
+.box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+.box img {
+  width: 90px;
+}
+
+.boxes .box h3 a {
+  color: #4d2a21;
+  text-decoration: none;
+}
+
+.boxes .box h3 a:hover {
+  color: #633a30;
+  font-weight: bolder;
+}
