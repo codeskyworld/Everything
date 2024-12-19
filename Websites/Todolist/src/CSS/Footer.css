@@ -1,0 +1,27 @@
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #5c7a98;
+  color: #fff;
+  margin-bottom: -12000px;
+  margin-top: 390px;
+}
+
+.down-line {
+  display: grid;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+footer a {
+  display: grid;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  display: grid;
+  text-decoration: none;
+  color: #bfbfbf;
+  font-weight: bolder;
+}

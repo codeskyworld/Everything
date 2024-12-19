@@ -1,0 +1,46 @@
+input {
+  width: 80%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.error {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.success {
+  color: white;
+  background-color: green;
+  padding: 10px;
+  margin: 10px;
+}
+
+.head {
+  text-align: center;
+  background-color: #5c7a98;
+  padding: 5px;
+}
+
+.form {
+  margin: 30px;
+  padding: 20px;
+  margin-right: -170px;
+}
+
+button {
+  width: 80%;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(167, 167, 167);
+  color: black;
+}

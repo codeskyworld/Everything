@@ -1,18 +1,16 @@
 import React from 'react'
 import Showcase from '../components/Showcase'
 import Boxes from '../components/Boxes'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
     <div>
       <Showcase/>
-      <h1 className="center">How to use</h1>
-      <p className="center">This website has a lot of different features. We will teach you how this todo list actually works.</p>
-      <h1 className="center">Time</h1>
-      <p className="center">This website will tell you if you finished a task. It can tell you if it is over due or not. There are currently 3 time zones so far.</p>
-      <Boxes heading="Overdue" paragraph="This meant your task is off time adn you haven't finished it yet. It will flash red if it is over due" color="red"/>
-      <Boxes heading="Completed" paragraph="This meant your task is completed and you wouldn't have to go back to do it again. It will flash green if completed" color="green"/>
-      <Boxes heading="In Progress" paragraph="This meant your task is currently in progress. It will flash yellow if in progress" color="yellow"/>
+      <Boxes heading="Stay orginised for the rest of your life" paragraph="You would never ever have to worry about remembering tasks ever again as long as you hav this web!" />
+      <Boxes heading="Remember each task like its on the back of your hand" paragraph="This web will help you get through your tasks in no time without needing any paper or pen" />
+      <Boxes heading="Our Easy to use interface" paragraph="This website is very easy to use so you won't need to vene understand it! Just enter your tasks and press a button and BOOM! Your task is shown" />
+      <Footer text="Todo Listing, Copyright &copy; 2024." />
     </div>
   )
 }

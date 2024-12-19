@@ -16,6 +16,7 @@ const Navbar = ({heading}:Props) => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/todo">Todo</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/login">Login</Link></li>
             </ul>
         </nav>
         </div>
