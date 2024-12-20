@@ -31,7 +31,7 @@ const Form = () => {
 
   return (
     <div className="main-container">
-      <h1 className="Todo-h1">To-Do-List</h1>
+      <h1 className="head">To-Do-List</h1>
       <ul>
         {todos.map((todo) => (
           <li className="task"key={todo.id} onClick={() => handleToggle(todo.id)} style={{visibility: todo.completed ? "hidden" : "visible"}}>{todo.task}</li>))}
