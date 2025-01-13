@@ -1,0 +1,23 @@
+.box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.box img {
+  width: 30%;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+.box button {
+  background-color: green;
+  color: white;
+}
+
+.box button:hover {
+  background-color: rgb(52, 90, 52);
+}
