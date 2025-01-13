@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Shop</h1>
+        </div>
+    </header>
+    <section id="boxes">
+        <h1 id="starter">Starter</h1>
+        <div class="box">
+            <h3>Scout</h3>
+            <img src="img/Scout.webp" alt="">
+            <p>The starter tower of the game.</p>
+            <button  class="buyButton">Free</button>
+        </div>
+        <div class="box">
+            <h3>Sniper</h3>
+            <img src="img/Sniper.webp" alt="">
+            <p>Shoot enemies from large distances. One of the starter towers.</p>
+            <button  class="buyButton">Free</button>
+        </div>
+        <div class="box">
+            <h3>Paintballer</h3>
+            <img src="img/Paintballer.webp" alt="">
+            <p>Usually, paintball guns aren't really useful in the apocalypse but apparently this one is. Deals splash damage.</p>
+            <button  class="buyButton">$100</button>
+        </div>
+        <div class="box">
+            <h3>Demoman</h3>
+            <img src="img/Demoman.webp" alt="">
+            <p>Ka-boooom! A great splash damage tower for beginners!</p>
+            <button class="buyButton">$200</button>
+        </div>
+        <div class="box">
+            <h3>Hunter</h3>
+            <img src="img/Hunter.webp" alt="">
+            <p>Deal medium damage to enemies with a rifle.</p>
+            <button class="buyButton">$300</button>
+        </div>
+        <div class="box">
+            <h3>Soldier</h3>
+            <img src="img/Soldier.webp" alt="">
+            <p>A cheap and effective burst tower. Great for beginners!</p>
+            <button>$400</button>
+        </div>
+        <h1 id="intermediate">Intermediate</h1>
+        <div class="box">
+            <h3>Crook Boss</h3>
+            <img src="img/Crook Boss.webp" alt="">
+            <p>Command henchmen to fight for you while looking cool!</p>
+            <Button>Level 30</Button>
+        </div>
+        <div class="box">
+            <h3>Militant</h3>
+            <img src="img/Militant.webp" alt="">
+            <p>Trained with an assault rifle, this tower deals medium damage at a fast firerate.</p>
+            <Button>$1500</Button>
+        </div>
+        <div class="box">
+            <h3>Medic</h3>
+            <img src="img/Medic.webp" alt="">
+            <p>Support tower that heals the base 5 HP per wave. At max, cleanses stunned towers.</p>
+            <Button>$1500</Button>
+        </div>
+        <div class="box">
+            <h3>Freezer</h3>
+            <img src="img/Freezer.webp" alt="">
+            <p>Chill enemies to a slow freeze!</p>
+            <Button>$1600</Button>
+        </div>
+        <div class="box">
+            <h3>Farm</h3>
+            <img src="img/Farm.webp" alt="">
+            <p>Earn extra cash per wave. The higher the upgrade, the higher the income.</p>
+            <Button>$2500</Button>
+        </div>
+        <div class="box">
+            <h3>Shotgunner</h3>
+            <img src="img/Shotgunner.webp" alt="">
+            <p>Wields a powerful pump shotgun with small range. Pierces through enemies.</p>
+            <Button>$2500</Button>
+        </div>
+        <div class="box">
+            <h3>Rocketeer</h3>
+            <img src="img/Rocketeer.webp" alt="">
+            <p>Shoot fast rockets that deal large damage, in a large radius!</p>
+            <Button>$2500</Button>
+        </div>
+        <div class="box">
+            <h3>Trapper</h3>
+            <img src="img/Trapper.webp" alt="">
+            <p>Watch your step.. Place various traps on the path to damage and stun enemies!</p>
+            <Button>$3000</Button>
+        </div>
+        <div class="box">
+            <h3>Ace Pilot</h3>
+            <img src="img/Ace Pilot.webp" alt="">
+            <p>Flies in a circular path, shooting enemies in its line of fire and dropping bombs.</p>
+            <Button>$3500</Button>
+        </div>
+        <div class="box">
+            <h3>Pyromancer</h3>
+            <img src="img/Pyromancer.webp" alt="">
+            <p>Burn multiple enemies at once and chip away defense.</p>
+            <Button>$3500</Button>
+        </div>
+        <div class="box">
+            <h3>Military Base</h3>
+            <img src="img/Military Base.webp" alt="">
+            <p>Send out a vehicle every couple of seconds to run over and shoot enemies.</p>
+            <Button>$4000</Button>
+        </div>
+        <div class="box">
+            <h3>[CONTENT DELTETED]</h3>
+            <p>[CONTENT DELETED]</p>
+            <Button>[CONTENT DELTETED]</Button>
+        </div>
+        <h1 id="advanced">Advanced</h1>
+    <script src="main.js"></script>
+    <script>
+       
+        const buyButtons = document.getElementsByClassName("buyButton");
+        Array.from(buyButtons).forEach((btn) => {
+          btn.addEventListener("click", (event) => {
+            event.target.innerHTML = "Equip";
+            event.target.style.backgroundColor = "gray";
+          });
+      })
+          </script>
+</body>
+</html>

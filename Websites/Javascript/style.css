@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #35424a;
+  color: white;
+  padding: 10px;
+  border-bottom: #e8491d 10px solid;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+.box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.box img {
+  max-width: 30%;
+}
+
+#starter {
+  color: rgb(134, 134, 134);
+  text-align: center;
+}
+
+#boxes .box button {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+#boxes .box button:hover {
+  background-color: rgb(58, 106, 58);
+  color: white;
+  cursor: pointer;
+}
+
+#intermediate {
+  color: green;
+  text-align: center;
+}
+
+#advanced {
+  color: cyan;
+  text-align: center;
+}
