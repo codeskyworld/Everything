@@ -1,0 +1,31 @@
+.money {
+  background-color: rgb(139, 139, 0);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.money:hover {
+  background-color: rgb(221, 221, 0);
+}
+
+.robux {
+  background-color: rgb(209, 209, 0);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.money:hover {
+  background-color: rgb(142, 142, 0);
+}

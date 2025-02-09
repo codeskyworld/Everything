@@ -15,7 +15,6 @@ const Header = ({Heading}:Props) => {
           <li><Link to="/crates">Crates</Link></li>
           <li><Link to="/consumables">Consumables</Link></li>
           <li><Link to="/nameTags">NameTags</Link></li>
-          <li><Link to="/daily">Daily</Link></li>
           <li><Link to="/login">Login</Link></li>
         </nav>
         </div>

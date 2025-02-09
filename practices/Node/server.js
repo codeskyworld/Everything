@@ -14,6 +14,7 @@ const server = http.createServer(async (req, res) => {
       } else if (req.url === "/about") {
       } else if (req.url === "/contact") {
       } else {
+        res.statusCode = 404;
         throw new Error("ERROR 404 PAGE NOT FOUND");
       }
       const data = await fs.readFile(filepath);

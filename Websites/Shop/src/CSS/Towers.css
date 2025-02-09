@@ -1,0 +1,47 @@
+.money {
+  background-color: rgb(139, 139, 0);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.money:hover {
+  background-color: rgb(221, 221, 0);
+}
+
+.gems {
+  background-color: rgb(162, 75, 255);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gems:hover {
+  background-color: rgb(183, 117, 253);
+}
+
+.level {
+  background-color: grey;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.level:hover {
+  background-color: rgb(171, 171, 171);
+}

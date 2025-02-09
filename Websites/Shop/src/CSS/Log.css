@@ -1,0 +1,29 @@
+input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.btn {
+  width: 82.7%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+form {
+  text-align: center;
+  background-color: grey;
+  padding: 50px;
+}
